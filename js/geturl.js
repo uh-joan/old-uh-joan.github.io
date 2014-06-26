@@ -1,6 +1,3 @@
-<script>
-<!--
-
 var myxmlhttp;
 
 doRequest();
@@ -72,8 +69,4 @@ function XmlHttpGET(xmlhttp, url) {
 		xmlhttp.send(null);
 	} catch (e) {}
 }
-
--->
-</script>
-
 
