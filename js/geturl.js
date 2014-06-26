@@ -18,6 +18,7 @@ function doRequest () {
 		alert("An error occured while attempting to process your request.");
 		// provide an alternative here that does not use XMLHttpRequest
 	}
+	document.getElementById("citations").innerHTML = myxmlhttp;
 }
 
 function resultHandler () {
