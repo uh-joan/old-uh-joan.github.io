@@ -39,7 +39,7 @@ function resultHandler () {
 			
 
 		} else {
-			alert("There was a problem retrieving the data:\n");// + req.statusText);
+			alert("There was a problem retrieving the data:\n" + myxmlhttp.statusText);
 		}
 	}
 }
