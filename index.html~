@@ -95,7 +95,7 @@
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-			<p class="visible-xs">Robot memory tool for helping the elderly</p>
+			<p class="visible-xs">Robot memory tool for helping the elderly(+)</p>
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-			<p>Social interaction design (+)</p>
+			<p class="visible-xs">Social interaction design(+)</p>
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-			<p>Artists as HRI pioneers for social robotics</p>
+			<p class="visible-xs">Artists as HRI pioneers for social robotics(+)</p>
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-			<p>Child robot interaction and engagement</p>
+			<p class="visible-xs">Child robot interaction and engagement(+)</p>
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -139,7 +139,7 @@
                 </div>
 		<div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-			<p>Interaction through games</p>
+			<p class="visible-xs">Interaction through games(+)</p>
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-			<p>Cooperative human multi-robot navigation</p>
+			<p class="visible-xs">Cooperative human multi-robot navigation(+)</p>
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
