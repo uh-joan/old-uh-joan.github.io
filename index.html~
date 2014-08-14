@@ -89,6 +89,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
+			<p>Robot memory tool for helping the elderly</p>
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
 				
@@ -97,7 +98,6 @@
                             </div>
                         </div>
                         <img src="img/project01/screen01.jpg" class="img-responsive" alt="" />
-<p>Robot memory tool for helping the elderly</p>
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
