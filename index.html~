@@ -51,15 +51,16 @@
                     <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
                     </li>
+		    <li class="page-scroll">
+                        <a href="#skills">Skills</a>
+                    </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
-		    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
+		    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -95,7 +96,6 @@
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
 			<p>Robot memory tool for helping the elderly</p>
                         <div class="caption">
-				
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
