@@ -77,6 +77,7 @@
                         <span class="name">Joan Saez-Pons</span>
                         <hr class="star-light">
                         <span class="skills">Full-stack developer - UI/UX architect - Technology enthusiast - PhD in Robotics.</span>
+			<span class="sr-only">bla bla bla</span>
                     </div>
                 </div>
             </div>
