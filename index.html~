@@ -89,8 +89,8 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-			
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+			<p>Robot memory tool for helping the elderly</p>
                         <div class="caption">
 				
                             <div class="caption-content">
@@ -102,6 +102,7 @@
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+			<p>Social interaction design</p>
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -112,6 +113,7 @@
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+			<p>Artists as HRI pioneers for social robotics</p>
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
