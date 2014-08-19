@@ -1,0 +1,64 @@
+                                .iS-Bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+.iS-Image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+}
+/******************************** SLIDE 1 ********************************/
+.Q-logo {
+	height: 150px;
+	width: auto;
+}
+.slide1-text1 {
+	font-family: 'Cinzel', serif;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	font-weight: 400;
+	padding: 20px 50px;
+	line-height: 100%;
+	text-align: center;
+}
+@media (min-width: 0px) and (max-width: 499px) {
+	.slide1-text1 {
+		left: 0%;		
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-top: -45px;
+		font-size: 40px;
+	}
+}
+@media (min-width: 500px) and (max-width: 767px){
+	.slide1-text1 {
+		margin-top: -45px;
+		margin-left: -227px;
+		font-size: 48px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.slide1-text1 {
+		margin-top: -55px;
+		margin-left: -312px;
+		font-size: 75px;
+	}
+}
+@media (min-width: 992px) {
+	.slide1-text1 {
+		margin-top: -70px;
+		margin-left: -400px;
+		font-size: 100px;
+	}
+}
+                            

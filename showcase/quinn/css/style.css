@@ -1,0 +1,632 @@
+                                /* Quinn CSS */
+/* Author: Epeo */
+/* Version: 1.0 */
+
+/***************************** General Classes *****************************/
+body {font-family: 'Cabin', sans-serif;}
+h1, h2, h3, h4, h5, h6{font-weight: 600; margin: 0; padding: 0;}
+p {font-weight: 400; font-size: 16px;}
+b, strong {font-weight: 700;}
+.Q-uppercase {text-transform: uppercase;}
+.Q-uppercase p {line-height: 30px;}
+.Q-title {transition: 300ms ease-in-out;}
+.Q-subtitle {font-family: 'Open Sans', sans-serif; font-weight: 300;}
+.navbar-brand {height: 70px;}
+/***************************** General Classes End *****************************/
+
+/***************************** Parallax Classes *****************************/
+.Q-parallax1 {
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+}
+.Q-parallax2 {
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+}
+.Q-parallax3 {
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+}
+.Q-parallax4 {
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+}
+.Q-background {
+	width: 100%;
+	height: 100%;
+	padding-top: 150px;
+	padding-bottom: 170px;
+}
+/***************************** Parallax Classes End *****************************/ 
+
+/***************************** Style Classes *****************************/
+.Q-icon-social {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	line-height: 36px;
+	margin: 5px;
+	text-align: center;
+	transition: 300ms ease-in-out;
+}
+.Q-icon-social:hover {
+	-webkit-transform: translateY(-7px);
+	transform: translateY(-7px);
+}
+.Q-border-title {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 200;
+	padding: 20px;
+}
+.Q-title-bg {
+	width: 100%;
+	padding: 20px 0px;
+}
+.Q-grey-bg {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+.Q-ticket-icon {
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 55px;
+	margin-top: 3px;
+	text-align: center;
+	vertical-align: top;
+	width: 55px;
+	height: 55px;
+	transition: 300ms ease-in-out;
+}
+.Q-ticket-paragraph {
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: top;
+	width: 80%;
+}
+.Q-ticket-paragraph p {
+	line-height: 30px;
+	margin-top: 5px;
+}
+.Q-number {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 80px;
+	font-weight: 700;
+}
+.Q-client {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.Q-pricing-title {
+	font-size: 25px;
+	padding-top: 15px;
+}
+.Q-pricing-price {
+	font-size: 50px;
+}
+.Q-pricing-info {
+	font-size: 16px;
+}
+.Q-pricing-detail {
+	font-size: 18px;
+	padding: 5px;
+	padding-bottom: 10px;
+}
+.Q-pricing-button {
+	display: inline-block;
+	margin: 10px;
+	margin-bottom: 15px;
+	padding: 15px;
+	width: 70%;
+}
+.Q-pricing-box-special > .Q-pricing-price {
+	font-size: 50px;
+}
+.Q-pricing-box-special > .Q-pricing-button {
+	display: inline-block;
+	margin: 10px;
+	margin-bottom: 15px;
+	padding: 15px;
+	width: 70%;
+}
+.Q-list {
+	margin-top: 110px;
+}
+.Q-list-icon {
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 52.5px;
+	margin-top: 3px;
+	text-align: center;
+	vertical-align: top;
+	width: 55px;
+	height: 55px;
+	transition: 300ms ease-in-out;
+}
+.Q-list-paragraph {
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: top;
+	width: 80%;
+}
+.Q-list-paragraph p {
+	line-height: 30px;
+	margin-top: 5px;
+}
+.Q-map-container {
+	width: 100%;
+	position: relative;
+	height: 450px;
+}
+.Q-map-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.Q-headquarter {
+	position: absolute;
+	top: 50%;
+	margin-top: -100.5px;
+	left: 20%;
+	width: 25%;
+	min-width: 245px;
+	max-width: 300px;
+	padding: 20px;
+	padding-bottom: 10px;
+	z-index: 2;
+}
+.Q-headquarter h3{	
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	padding-bottom: 10px;
+}
+.Q-headquarter p {
+	transition: 300ms ease-in-out;
+}
+.Q-headquarter i {padding-right: 10px;}
+.Q-footer {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.Q-footer-social {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	line-height: 36px;
+	text-align: center;
+	transition: 300ms ease-in-out;
+}
+.Q-footer-social:hover {
+	-webkit-transform: translateY(-7px);
+	transform: translateY(-7px);
+}
+.Q-footer-logo {
+	width: 200px;
+	height: auto;
+}
+/***************************** Style Classes End *****************************/
+
+/***************************** Work Modal *****************************/
+.Q-work-img-modal {
+	width: 100%;
+}
+.Q-work-left, .Q-work-right {
+	display: inline-block;
+	vertical-align: top;
+}
+.Q-work-left {
+	width: 100%;
+	position: relative;	
+}
+.Q-work-image {
+	overflow: hidden;
+}
+.Q-work-description {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+}
+.Q-work-divisor {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 5px;
+}
+.Q-work-description p {
+	width: 70%;
+}
+.Q-work-right {
+	width: 100%;
+}
+.Q-work-details {
+	padding: 40px;	
+}
+.Q-work-details ul {
+	padding-left: 0px;
+}
+.Q-work-details li {
+	list-style: none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+@media (max-width: 991px) {
+	.Q-work-description {
+	width: 100%;
+	}
+	.Q-work-details {
+	width: 100%;
+	}
+}
+@media (max-width: 499px) {
+	.Q-work-img-modal {
+		width: auto;
+		height: 100%;
+		/*fast centered*/
+		-webkit-transform:translateX(-25%);transform:translateX(-25%);
+	}
+	.Q-work-description p {
+		width: 100%;
+	}
+}
+.close {
+	opacity: .3;
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	z-index: 999;
+	transition: 300ms ease-in-out;
+}
+.close:hover {
+	opacity: 1;
+}
+/***************************** Work Modal *****************************/
+
+/***************************** Team Style + Animations *****************************/
+.Q-team-box {
+	border-top: 0px;
+	transition: 300ms ease-in-out;
+}
+.Q-team-img-container {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
+.Q-team-img {
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	transition: 300ms ease-in-out;
+}
+.Q-team-img-single {
+	width: 100%;
+	height: auto;
+	transition: 300ms ease-in-out;
+}
+.Q-team-img-effect {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	transition: 300ms ease-in-out;
+	opacity: 1;
+}
+.Q-team-paragraph {
+	padding: 10px;
+	padding-bottom: 0px;
+}
+.Q-team-view {
+	cursor: pointer;
+	display: inline-block;
+	opacity: 0;
+	position: absolute;
+	top: 40%;
+	margin-top: -10px;
+	left: 50%;
+	margin-left: -35px;
+	transition: 200ms ease-in-out;	
+}
+.Q-team-hover {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	transition: 300ms ease-in-out;	
+}
+.Q-team-social {
+	padding-bottom: 20px;
+}
+.Q-team-img-container:hover > .Q-team-hover {
+	opacity: 1;
+}
+.Q-team-img-container:hover > .Q-team-view {
+	top: 50%;
+	opacity: 1;
+	-webkit-transition-delay: 300ms;
+	transition-delay: 300ms;
+}
+.Q-team-img-container:hover > .Q-team-img {
+	opacity: 1;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.Q-team-img-container:hover > .Q-team-img-single {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+/***************************** Team Style + Animations End *****************************/
+
+/***************************** Portfolio Animations *****************************/
+.Q-work {
+	margin-top: 30px;
+	overflow: hidden;
+	position: relative;
+	-webkit-perspective: 500px;
+	perspective: 500px;
+}
+.Q-hover {
+	cursor: pointer;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0;
+	transition: 500ms ease-in-out;	
+}
+.Q-work-img {
+	width: 100%;
+	height: auto;
+	transition: 300ms ease-in-out;
+}
+.Q-work-icon {
+	position: absolute;
+	cursor: pointer;
+	top: 50%;
+	margin-top: -22px;
+	left: 50%;
+	margin-left: -22px;
+	opacity: 0;
+	transition: 300ms ease-in-out;
+}
+.Q-work-title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	z-index: 999;
+	opacity: 0;
+	transition: 300ms ease-in-out;
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+.Q-work:hover > .Q-hover {
+	opacity: 1;
+}
+.Q-work:hover > .Q-work-img {
+	-webkit-transform: translateY(-10%) scale(1.2);
+	transform: translateY(-10%) scale(1.2);
+}
+.Q-work:hover > .Q-work-icon {
+	opacity: 1;
+}
+.Q-work:hover > .Q-work-title {
+	opacity: 1;
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
+}
+/***************************** Portfolio Animations End *****************************/
+
+/***************************** Scroll Animations *****************************/
+.Q-animate.Q-animate-hide  {
+ -webkit-transition: opacity .5s ease-in-out, z-index .5s step-end;
+ transition: opacity .5s ease-in-out, z-index .5s step-end;
+}
+.Q-animate-hide {
+ -webkit-transition-timing-function: ease-in-out, step-end;
+ transition-timing-function: ease-in-out, step-end;
+ opacity: 0;
+ z-index: -1!important;
+}
+@media (min-width: 1025px) {
+.Q-animate {
+-webkit-transition: -webkit-transform 500ms ease-in-out, opacity 500ms ease-in-out;
+transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+}
+.Q-animate-slow {
+-webkit-transition: -webkit-transform 1000ms ease-in-out, opacity 1000ms ease-in-out;
+transition: transform 1000ms ease-in-out, opacity 1000ms ease-in-out;
+}
+.Q-animate-left {
+-webkit-transform: translateX(-50px);
+transform: translateX(-50px);
+opacity: 0;
+}
+.Q-animate-right {
+-webkit-transform: translateX(50px);
+transform: translateX(50px);
+opacity: 0;
+}
+.Q-animate-top {
+-webkit-transform: translateY(-100px);
+transform: translateY(-100px);
+opacity: 0;
+}
+.Q-animate-bottom {
+-webkit-transform: translateY(100px);
+transform: translateY(100px);
+opacity: 0;
+}
+.Q-animate-fade {
+	opacity: 0;
+}
+.Q-sequence:nth-child(1) {
+transition-delay : 0ms;
+-webkit-transition-delay: 0ms;
+}
+.Q-sequence:nth-child(2) {
+transition-delay : 150ms;
+-webkit-transition-delay: 150ms;
+}
+.Q-sequence:nth-child(3) {
+transition-delay : 300ms;
+-webkit-transition-delay: 300ms;
+}
+.Q-sequence:nth-child(4) {
+transition-delay : 450ms;
+-webkit-transition-delay: 450ms;
+}
+.Q-sequence:nth-child(5) {
+transition-delay : 600ms;
+-webkit-transition-delay: 600ms;
+}
+.Q-sequence-slow:nth-child(1) {
+transition-delay : 0ms;
+-webkit-transition-delay: 0ms;
+}
+.Q-sequence-slow:nth-child(2) {
+transition-delay : 300ms;
+-webkit-transition-delay: 300ms;
+}
+.Q-sequence-slow:nth-child(3) {
+transition-delay : 600ms;
+-webkit-transition-delay: 600ms;
+}
+.Q-sequence-slow:nth-child(4) {
+transition-delay : 900ms;
+-webkit-transition-delay: 900ms;
+}
+.Q-sequence-slow:nth-child(5) {
+transition-delay : 1200ms;
+-webkit-transition-delay: 1200ms;
+}
+.Q-sequence-inverted:nth-last-child(1) {
+transition-delay : 0ms;
+-webkit-transition-delay: 0ms;
+}
+.Q-sequence-inverted:nth-last-child(2) {
+transition-delay : 150ms;
+-webkit-transition-delay: 150ms;
+}
+.Q-sequence-inverted:nth-last-child(3) {
+transition-delay : 300ms;
+-webkit-transition-delay: 300ms;
+}
+.Q-sequence-inverted:nth-last-child(4) {
+transition-delay : 450ms;
+-webkit-transition-delay: 450ms;
+}
+.Q-sequence-inverted:nth-last-child(5) {
+transition-delay : 600ms;
+-webkit-transition-delay: 600ms;
+}
+.Q-sequence-inverted-slow:nth-last-child(1) {
+transition-delay : 0ms;
+-webkit-transition-delay: 0ms;
+}
+.Q-sequence-inverted-slow:nth-last-child(2) {
+transition-delay : 300ms;
+-webkit-transition-delay: 300ms;
+}
+.Q-sequence-inverted-slow:nth-last-child(3) {
+transition-delay : 600ms;
+-webkit-transition-delay: 600ms;
+}
+.Q-sequence-inverted-slow:nth-last-child(4) {
+transition-delay : 900ms;
+-webkit-transition-delay: 900ms;
+}
+.Q-sequence-inverted-slow:nth-last-child(5) {
+transition-delay : 1200ms;
+-webkit-transition-delay: 1200ms;
+}
+}
+/***************************** Scroll Animations End *****************************/
+
+/***************************** Bootstrap Overlay & General Options *****************************/
+.Q-margin10 {margin-top: 10px;}.Q-margin20 {margin-top: 20px;}.Q-margin30 {margin-top: 30px;}.Q-margin40 {margin-top: 40px;}.Q-margin50 {margin-top: 50px;}.Q-margin60 {margin-top: 60px;}.Q-margin70 {margin-top: 70px;}.Q-margin80 {margin-top: 80px;}.Q-margin90 {margin-top: 90px;}.Q-margin100 {margin-top: 100px;}
+.Q-divisor-border10 {padding-bottom: 10px;}.Q-divisor-border20 {padding-bottom: 20px;}.Q-divisor-border30 {padding-bottom: 30px;}.Q-divisor-border40 {padding-bottom: 40px;}.Q-divisor-border50 {padding-bottom: 50px;}.Q-divisor-border60 {padding-bottom: 60px;}.Q-divisor-border70 {padding-bottom: 70px;}.Q-divisor-border80 {padding-bottom: 80px;}.Q-divisor-border90 {padding-bottom: 90px;}.Q-divisor-border100 {padding-bottom: 100px;}
+.Q-divisor-topborder10 {padding-top: 10px;}.Q-divisor-topborder20 {padding-top: 20px;}.Q-divisor-topborder30 {padding-top: 30px;}.Q-divisor-topborder40 {padding-top: 40px;}.Q-divisor-topborder50 {padding-top: 50px;}.Q-divisor-topborder60 {padding-top: 60px;}.Q-divisor-topborder70 {padding-top: 70px;}.Q-divisor-topborder80 {padding-top: 80px;}.Q-divisor-topborder90 {padding-top: 90px;}.Q-divisor-topborder100 {padding-top: 100px;}
+.progress {border-radius: 0px;-webkit-box-shadow: none;box-shadow: none;}
+.progress-bar {-webkit-box-shadow: none;box-shadow: none;}
+.btn {border-radius: 0px; transition: 300ms ease-in-out;}
+.form-control {border-radius: 0px;-webkit-box-shadow: none;box-shadow: none; height: 50px;}
+.form-control:focus {-webkit-box-shadow: none;box-shadow: none;}
+.Q-message {height: 115px!important;} .Q-submit{height:50px; line-height: 2.5;}
+.modal-content {-webkit-box-shadow: none;box-shadow: none; border-radius: 0px; border: 0px;}
+.close {margin-right: 10px; margin-top: 5px; font-size: 25px; margin-bottom: -30px; text-align: right;}
+.navbar-default .navbar-nav>li>a {transition: 300ms ease-in-out;}
+.navbar {margin-bottom: 0px;}
+.dropdown-menu {border-radius: 0px; -webkit-box-shadow: none; box-shadow: none;}
+.Q-Scroll {position: absolute;bottom: 2%;left: 50%;margin-left: -56px;z-index: 999;text-align: center;}
+.Q-Scroll a {transition: 300ms ease-in-out;}
+.Q-Scroll a:hover {text-decoration: none;}
+.Q-Scroll-Icon {transition: 300ms ease-in-out;}
+.Q-Back {position: fixed;bottom: 20px;right: 20px;z-index: 999;text-align: center;padding: 0px 10px;border-radius: 3px;}
+.Q-Back a {transition: 300ms ease-in-out;}
+.Q-Back a:hover {text-decoration: none;}
+.Q-Back.Q-animate-hide {position: absolute}
+.Q-Back a {}
+.Q-Back-Icon {transition: 300ms ease-in-out;}
+.fixed {position: fixed; top:0; width: 100%; z-index: 999;}
+.fixed+* {margin-top:72px;}
+.navbar-toggle {margin-top: 17px;}
+
+/***************************** Bootstrap Overlay & General Options End *****************************/
+
+/***************************** Responsive Classes *****************************/
+@media (min-width: 300px) {.modal-sm {width: 300px; margin: 0 auto; margin-top: 20px;}}
+@media (max-width: 345px) {
+	.Q-pricing-box {margin: 30px;}
+}
+@media (max-width: 450px) {
+	.Q-team-box {width: 263px;}
+}
+@media (min-width: 346px) and (max-width: 767px) {
+	.Q-pricing-box {max-width: 300px;}
+	.Q-pricing-box-special {max-width: 320px;}
+}
+@media (min-width: 450px) and (max-width: 767px) {
+	.Q-team-box {width: 353px;}
+}
+@media (max-width: 767px) {
+	.Q-background {padding-top: 50px; padding-bottom: 60px;}
+}
+@media (max-width: 767px) {
+	.Q-ticket-icon {display: block;}
+	.Q-ticket-paragraph {text-align: center; width: 100%; margin-top: 20px;margin-left: 0px;}
+	.Q-list-icon {display: block;}
+	.Q-list-paragraph {text-align: center; width: 100%; margin-top: 20px; margin-left: 0px;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.Q-ticket-paragraph {width: 90%;}
+	.Q-list-paragraph {width: 90%;}
+}
+@media (max-width: 991px) {
+	.Q-list {margin-top: 20px;}
+	.Q-list-img {margin-top: 50px;}
+}
+@media (min-width: 768px) {.navbar-nav {margin-top: 10px;}}
+@media (min-width: 768px) {.navbar {border-radius: 0px;}}
+@media (max-width: 1025px) {.Q-parallax1, .Q-parallax2, .Q-parallax3, .Q-parallax4 {background-attachment: scroll; background-position: center;}}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.Q-ticket-paragraph {width: 75%;}
+}
+@media (min-width: 1025px) {
+	.Q-team-box:hover {
+	border-bottom: 0px;
+	margin-top: -5px;
+	}
+}
+@media (min-width: 1200px) {.container {width: 1168px; overflow: hidden;}}
+/***************************** Responsive Classes End *****************************/
+                            

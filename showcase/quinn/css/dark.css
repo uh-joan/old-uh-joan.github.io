@@ -1,0 +1,248 @@
+/* Quinn CSS */
+/* Author: Epeo */
+/* Version: 1.0 */
+
+/***************************** General Classes *****************************/
+body {background: #151521;}
+p {color: #999;}
+b, strong {color: #ccc;}
+.Q-colored {color: #00adee;}
+.Q-title {color: #eee;}
+.Q-subtitle {color: #bbb;}
+.navbar-default .navbar-nav>li>a:hover {color: #00adee;} /*menu hover color*/
+/***************************** General Classes End *****************************/
+
+/***************************** Parallax Classes *****************************/
+.Q-parallax1 {
+	background-image: url('../images/parallax1.jpg');
+}
+.Q-parallax2 {
+	background-image: url('../images/parallax2.jpg');
+}
+.Q-parallax3 {
+	background-image: url('../images/parallax3.jpg');
+}
+.Q-parallax4 {
+	background-image: url('../images/parallax4.jpg');
+}
+.Q-background {
+	background-color: rgba(13,13,21,.70);
+}
+.Q-parallax-content, .Q-parallax-content p {
+	color: #fff;
+}
+/***************************** Parallax Classes End *****************************/ 
+
+/***************************** Style Classes *****************************/
+.Q-icon-social {
+	border-color: #777;
+	border-width: 1px;
+	border-style: solid;
+	color: #777;
+}
+.Q-icon-social:hover {
+	border-color: #00adee;
+	border-width: 1px; 
+	border-style: solid;
+	color: #00adee;
+}
+.Q-border-title {
+	color: #4d4d55;
+}
+.Q-title-bg {
+	border-bottom-color: rgba(255,255,255,.1);
+	border-bottom-width: 4px;
+	border-bottom-style: double;
+}
+.Q-grey-bg {
+	background: rgba(0,0,0,0.1);
+	border-top-color: rgba(255,255,255,.1);
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-bottom-color: rgba(255,255,255,.1);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.Q-ticket-icon {
+	border-color: #aaa; 
+	border-width: 1px;
+	border-style: solid;
+	color: #eee;
+}
+.Q-pricing-box {
+	color: rgba(255,255,255,.6);
+	border-color: rgba(255,255,255,.1); 
+	border-width: 1px;
+	border-style: solid;
+}
+.Q-pricing-button {
+	border-color: rgba(255,255,255,.1); 
+	border-width: 1px;
+	border-style: solid;
+	color: rgba(255,255,255,.2);
+	background: transparent;
+}
+.Q-pricing-box-special {
+	border-color: #00adee; 
+	border-width: 1px;
+	border-style: solid;
+}
+.Q-pricing-box-special > .Q-pricing-title {
+	color: #00adee;
+}
+.Q-pricing-box-special > .Q-pricing-price {
+	color: #00adee;
+}
+.Q-pricing-box-special > .Q-pricing-button {
+	border-color: #00adee; 
+	border-width: 1px;
+	border-style: solid;
+	color: #00adee;
+}
+.Q-pricing-box-special > .Q-pricing-detail {
+	color: #00adee;
+}
+.Q-list-icon {
+	border-color: #aaa;
+	border-width: 1px;
+	border-style: solid;
+	color: #eee;
+}
+.Q-map-overlay {
+	background-color: rgba(15,15,21,.4);
+}
+.Q-headquarter {
+	background: rgba(15,15,25,.9);
+	border-bottom-color: #00adee; 
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+}
+.Q-headquarter h3{	
+	border-bottom-color: rgba(255,255,255,0.1); 
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.Q-headquarter p {
+	color: rgba(255,255,255,.5);
+}
+.Q-headquarter p:hover {
+	color: #fff;
+}
+.Q-headquarter i {padding-right: 10px;}
+.Q-footer {
+	border-top-color: rgba(255,255,255,.1);
+	border-top-width: 1px;
+	border-top-style: solid;
+	background: #14141e;
+	color: #444;
+}
+.Q-footer-social {
+	color: rgba(255,255,255,.2);
+	border-color: transparent; 
+	border-width: 1px;
+	border-style: solid;
+}
+.Q-footer-social:hover {
+	color: #00adee;
+	border-color: #00adee; 
+	border-width: 1px;
+	border-style: solid;
+}
+/***************************** Style Classes End *****************************/
+
+/***************************** Work Modal *****************************/
+.Q-work-description {
+	color: #fff;
+	background-color: rgba(15,15,15,.8);	
+}
+.Q-work-divisor {
+	background-color: #fff;
+}
+.Q-work-description p {
+	color: #ccc;
+}
+.Q-work-details li {
+	border-bottom-color: #ddd; 
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.close {
+	color: #fff;
+}
+.close:hover {
+	color: #fff;
+}
+/***************************** Work Modal *****************************/
+
+/***************************** Team Style + Animations *****************************/
+.Q-team-box {
+	background: #fff;
+}
+.Q-team-view {
+	color:  #fff;
+}
+.Q-team-hover {
+	background-color: rgba(52,52,52,.8);
+}
+/***************************** Team Style + Animations End *****************************/
+
+/***************************** Icons Hover *****************************/
+.Q-icon-hover:hover > .Q-ticket-icon {
+	background: #00adee;
+	border-color: #00adee;
+	color: #fff;
+}
+.Q-icon-hover:hover > .Q-list-icon {
+	background: #00adee;
+	border-color: #00adee;
+	color: #fff;
+}
+.Q-ticket-paragraph:hover > .Q-title {
+	color: #00adee;
+}
+.Q-list-paragraph:hover > .Q-title {
+	color: #00adee;
+}
+/***************************** Icons Hover End *****************************/
+
+/***************************** Portfolio Animations *****************************/
+.Q-hover {
+	background-color: rgba(15,15,25,.8);
+}
+.Q-work-title {
+	color: #fff;
+}
+/***************************** Portfolio Animations End *****************************/
+
+/***************************** Bootstrap Overlay & General Options *****************************/
+.Q-divisor-border10, .Q-divisor-border20, .Q-divisor-border30, .Q-divisor-border40, .Q-divisor-border50, .Q-divisor-border60, .Q-divisor-border70, .Q-divisor-border80, .Q-divisor-border90, .Q-divisor-border100 {border-bottom-color: rgba(255,255,255,.1);border-bottom-width: 1px;border-bottom-style: solid;}
+.Q-divisor-topborder10, .Q-divisor-topborder20, .Q-divisor-topborder30, .Q-divisor-topborder40, .Q-divisor-topborder50, .Q-divisor-topborder60, .Q-divisor-topborder70, .Q-divisor-topborder80, .Q-divisor-topborder90, .Q-divisor-topborder100 {border-top-color: rgba(255,255,255,.1);border-top-width: 1px;border-top-style: solid;}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {color: #fff;background-color: #00adee;border-color: transparent;}
+.navbar-default {background-color: #151521; border: none; border-bottom-color: rgba(255,255,255,.1);border-bottom-width: 1px;border-bottom-style: solid;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {background-color: transparent;}
+.navbar-default .navbar-nav>li>a {color: rgba(255,255,255,.2);}
+.navbar-default .navbar-nav>li>a:focus {color: rgba(255,255,255,.2);}
+.navbar-nav>li>.dropdown-menu {border-color: rgba(255,255,255,.1); border-width: 1px; border-style: solid; border-top: none;}
+.dropdown-menu>li>a {color: rgba(255,255,255,.2);}
+.dropdown-menu {border-top: #fff; background-color: #151521;}
+.dropdown-menu .divider {background-color: rgba(255,255,255,.1);}
+.Q-Scroll {color: rgba(255,255,255,0.35);}
+.Q-Scroll a {color: rgba(255,255,255,0.35);}
+.Q-Scroll a:hover {color: rgba(255,255,255,0.8);}
+.Q-Scroll:hover > .Q-Scroll-Icon {color: rgba(255,255,255,0.8);}
+.Q-Back {color: rgba(255,255,255,.2);background: #151521;border-color: rgba(255,255,255,.2);border-width: 1px; border-style: solid;}
+.Q-Back a {color: rgba(255,255,255,.2);}
+.Q-Back a:hover {color: rgba(255,255,255,.7);}
+.Q-Back:hover > .Q-Back-Icon {color: rgba(255,255,255,.7);}
+.navbar-toggle:hover, .navbar-toggle:active {background: #fff!important;}
+
+/***************************** Bootstrap Overlay & General Options End *****************************/
+
+/***************************** Responsive Classes *****************************/
+@media (min-width: 1025px) {
+	.Q-team-box:hover {
+	border-bottom: 0px;
+	box-shadow: 0px 5px 0px #00adee;
+	margin-top: -5px;
+	}
+}

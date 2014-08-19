@@ -1,0 +1,20 @@
+/**/
+.iS-Red {
+	background-color: red;
+}
+.iS-Blue {
+	background-color: blue;
+}
+.iS-Red-Mask {
+	background-color: rgba(255, 0, 0, 0.5);
+}
+.iS-Grey-Mask {
+	background-color: rgba(15,15,25,0.75);
+}
+/**/
+/******************************** SLIDE 1 ********************************/
+.slide1-text1 {
+	color: #fff;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
