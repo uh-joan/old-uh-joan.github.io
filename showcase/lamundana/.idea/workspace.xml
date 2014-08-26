@@ -44,7 +44,7 @@
       <file leaf-file-name="main-min.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main-min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="5" selection-start="5318" selection-end="5318" vertical-scroll-proportion="1.689382" vertical-offset="494" max-vertical-offset="1665">
+            <state line="24" column="66" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.35816166" vertical-offset="134" max-vertical-offset="1665">
               <folding />
             </state>
           </provider>
@@ -61,8 +61,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/css/main-min.css" />
-        <option value="$PROJECT_DIR$/js/main-min.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main-min.js" />
       </list>
     </option>
   </component>
@@ -244,7 +244,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="5" selection-start="5318" selection-end="5318" vertical-scroll-proportion="1.689382" vertical-offset="494" max-vertical-offset="1665">
+        <state line="24" column="66" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.35816166" vertical-offset="134" max-vertical-offset="1665">
           <folding />
         </state>
       </provider>
