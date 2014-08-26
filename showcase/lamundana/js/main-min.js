@@ -27,7 +27,7 @@ $(document).ready(function(){
             case 5:$(this).children().append("<i class='entypo-mail'></i>");break;}
     });
     setInterval(function(){
-        if($("body").hasClass("viewing-page-2")){
+        /*if($("body").hasClass("viewing-page-2")){
         $(".slide-1-title").removeClass("hide").addClass("animated fadeInRight delay-1");
         $(".slide-1-1").removeClass("hide").addClass("animated fadeInRight delay-3");
         $(".iphone-1").removeClass("hide").addClass("animated fadeInUp delay-3");
@@ -36,8 +36,8 @@ $(document).ready(function(){
         $(".slide-1-scroll").removeClass("hide").addClass("animated fadeInDown delay-12");
         $(".icon span").css("color","#fff");console.log(c);if(c==true){
             $(".slide-1").css("background-color","#1ABC9C");
-        } }
-        if($("body").hasClass("viewing-page-3")){
+        } }*/
+        if($("body").hasClass("viewing-page-2")){
             $(".iphone-2").removeClass("hide").addClass("animated fadeInDown delay-1");
             $(".slide-2-title").removeClass("hide").addClass("animated fadeIn delay-3");
             $(".slide-2-1").removeClass("hide").addClass("animated fadeIn delay-4");
@@ -52,7 +52,7 @@ $(document).ready(function(){
                 $(".slide-2").css("background-color","#34495e");
             }
         }
-        if($("body").hasClass("viewing-page-4")){
+        /*if($("body").hasClass("viewing-page-4")){
             $(".slide-3-title").removeClass("hide").addClass("animated fadeInLeft delay-1");
             $(".slide-3-1").removeClass("hide").addClass("animated fadeInLeft delay-3");
             $(".iphone-3").removeClass("hide").addClass("animated fadeInUp delay-3");
@@ -62,8 +62,8 @@ $(document).ready(function(){
             $(".icon span").css("color","#333");
             if(c===true){$(".slide-3").css("background","#f1c40f");
             }
-        }
-        if($("body").hasClass("viewing-page-5")){
+        }*/
+        if($("body").hasClass("viewing-page-3")){
             $(".icon span").css("color","#fff");
         }
         if(c==true&&b==false){
