@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="33" selection-start="4643" selection-end="4643" vertical-scroll-proportion="-4.7058825" vertical-offset="1485" max-vertical-offset="3090">
+            <state line="36" column="80" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.37878788" vertical-offset="315" max-vertical-offset="3090">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-min.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main-min.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main-min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="186" column="23" selection-start="13848" selection-end="13855" vertical-scroll-proportion="0.8430421" vertical-offset="2269" max-vertical-offset="3945">
+            <state line="186" column="23" selection-start="13848" selection-end="13855" vertical-scroll-proportion="-19.296297" vertical-offset="2269" max-vertical-offset="3945">
               <folding />
             </state>
           </provider>
@@ -61,8 +61,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/main-min.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main-min.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -214,16 +214,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main-min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="33" selection-start="4643" selection-end="4643" vertical-scroll-proportion="-4.7058825" vertical-offset="1485" max-vertical-offset="3090">
+        <state line="186" column="23" selection-start="13848" selection-end="13855" vertical-scroll-proportion="-19.296297" vertical-offset="2269" max-vertical-offset="3945">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main-min.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="23" selection-start="13848" selection-end="13855" vertical-scroll-proportion="0.8430421" vertical-offset="2269" max-vertical-offset="3945">
+        <state line="36" column="80" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.37878788" vertical-offset="315" max-vertical-offset="3090">
           <folding />
         </state>
       </provider>
