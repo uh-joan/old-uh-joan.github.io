@@ -164,8 +164,9 @@ p span{color:#555}
 @media (min-width: 992px){.slide-2 .iphone-2{margin-top:60px}}
 @media (min-width: 992px){.slide-2 .copy{margin-top:120px !important}}
 .slide-2.full-color{background-color:#34495e}
-.slide-3{background-color:rgba(241,196,15,0.7);-webkit-transition:all,400ms;-moz-transition:all,400ms;-o-transition:all,400ms;transition:all,400ms}
-.slide-3.fade-background{background-color:#34495e}
+
+.slide-3{background-color:rgba(52,152,219,0.7);-webkit-transition:all,400ms;-moz-transition:all,400ms;-o-transition:all,400ms;transition:all,400ms}
+.slide-3.fade-background{background-color:#3498db}
 
 @media (min-width: 768px){.slide-3 .iphone-3{margin-top:80px}}
 @media (min-width: 992px){.slide-3 .copy{margin-top:120px !important}}
