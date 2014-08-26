@@ -5,9 +5,12 @@ $(document).ready(function(){
     var a=new $.BigVideo({useFlashForFirefox:false});
     a.init();
     if(Modernizr.touch)
-    {a.show("img/background.jpg");}
+    {
+        a.show("img/background.jpg");}
     else
-    {a.show("video/surf.mp4",{ambient:true,doLoop:true,altSource:"video/surf.ogv"});}
+    {
+        a.show("video/surf.mp4",{ambient:true,doLoop:true,altSource:"video/surf.ogv"});
+    }
     setTimeout(function(){$("#big-video-wrap").show().animate({opacity:1});},2500);
     $(".demo1 .rotate").textrotator({animation:"fade",speed:2000});
     $(".take-a-look").on("click",function(){
