@@ -1,0 +1,103 @@
+.color-switcher {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  z-index: 999;
+  -webkit-transform: translate(-50px, 0);
+  -moz-transform: translate(-50px, 0);
+  -o-transform: translate(-50px, 0);
+  -ms-transform: translate(-50px, 0);
+  transform: translate(-50px, 0);
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  transition: -webkit-transform 0.3s,-moz-transform 0.3s,-o-transform 0.3s,transform 0.3s;
+  overflow: hidden;
+}
+.color-switcher:hover {
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+.color-switcher > div > span {
+  display: block;
+  float: right;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  color: #444;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+}
+.color-switcher > div > span i {
+  line-height: 50px;
+}
+.color-switcher ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  float: left;
+  padding: 5px;
+  background: #fff;
+}
+.color-switcher ul li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 25px;
+  width: 100%;
+}
+.color-switcher ul li:nth-child(1) {
+  background: #f0605b;
+}
+.color-switcher ul li:nth-child(2) {
+  background: #66cc99;
+}
+.color-switcher ul li:nth-child(3) {
+  background: #52b3d9;
+}
+.color-switcher ul li:nth-child(4) {
+  background: #e74c3c;
+}
+.color-switcher ul li:nth-child(5) {
+  background: #3a539b;
+}
+.color-switcher ul li:nth-child(6) {
+  background: #e87e04;
+}
+.color-switcher ul li:nth-child(7) {
+  background: #2abb9b;
+}
+.color-switcher ul li:nth-child(8) {
+  background: #67809f;
+}
+.color-switcher ul li:nth-child(9) {
+  background: #2c3e50;
+}
+.color-switcher ul li:nth-child(10) {
+  background: #336e7b;
+}
+.color-switcher ul li:nth-child(11) {
+  background: #e08283;
+}
+.color-switcher ul li:nth-child(12) {
+  background: #f2784b;
+}
+.color-switcher ul li:nth-child(13) {
+  background: #913d88;
+}
+.color-switcher ul li:nth-child(14) {
+  background: #bf55ec;
+}
+.color-switcher ul li:nth-child(15) {
+  background: #be90d4;
+}
+.color-switcher ul li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
