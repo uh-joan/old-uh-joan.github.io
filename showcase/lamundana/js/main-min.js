@@ -12,7 +12,7 @@ $(document).ready(function(){
     $(".demo1 .rotate").textrotator({animation:"fade",speed:2000});
     $(".take-a-look").on("click",function(){
         console.log("click take a look");
-        $(".onepage-pagination li:nth-child(2)").children().trigger("click");
+        $(".onepage-pagination li:nth-child(1)").children().trigger("click");
     });
     $(".onepage-pagination").addClass("animated fadeInRight delay-3");
     $(".onepage-pagination").children().each(function(){
