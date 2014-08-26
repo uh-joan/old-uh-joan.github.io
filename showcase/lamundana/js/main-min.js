@@ -81,9 +81,9 @@ $(document).ready(function(){
     });
     $(".toggle-opacity-all").on("click",function(){
         $(".home").toggleClass("full-color");
-        //$(".slide-1").toggleClass("full-color");
+        $(".slide-1").toggleClass("full-color");
         $(".slide-2").toggleClass("full-color");
-        //$(".slide-3").toggleClass("full-color");
+        $(".slide-3").toggleClass("full-color");
         $(".contact").toggleClass("full-color");
     });
     $(".toggle-phone").on("click",function(){
@@ -97,8 +97,8 @@ $(document).ready(function(){
             c=false;console.log(c);
         }
     }
-        //$(".slide-1").toggleClass("fade-background");
+        $(".slide-1").toggleClass("fade-background");
         $(".slide-2").toggleClass("fade-background");
-        //$(".slide-3").toggleClass("fade-background");
+        $(".slide-3").toggleClass("fade-background");
     });
 });
