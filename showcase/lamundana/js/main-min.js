@@ -19,12 +19,13 @@ $(document).ready(function(){
         switch($(this).children().data("index"))
         {
             case 1:$(this).children().append("<i class='entypo-home'></i>");break;
-            case 2:$(this).children().append("<i class='entypo-dot'></i>");break;
+            //case 2:$(this).children().append("<i class='entypo-dot'></i>");break;
             case 3:$(this).children().append("<i class='entypo-dot-2'></i>");break;
-            case 4:$(this).children().append("<i class='entypo-dot-3'></i>");break;
+            //case 4:$(this).children().append("<i class='entypo-dot-3'></i>");break;
             case 5:$(this).children().append("<i class='entypo-mail'></i>");break;}
     });
-    setInterval(function(){if($("body").hasClass("viewing-page-2")){
+    setInterval(function(){
+        if($("body").hasClass("viewing-page-2")){
         $(".slide-1-title").removeClass("hide").addClass("animated fadeInRight delay-1");
         $(".slide-1-1").removeClass("hide").addClass("animated fadeInRight delay-3");
         $(".iphone-1").removeClass("hide").addClass("animated fadeInUp delay-3");
@@ -33,8 +34,7 @@ $(document).ready(function(){
         $(".slide-1-scroll").removeClass("hide").addClass("animated fadeInDown delay-12");
         $(".icon span").css("color","#fff");console.log(c);if(c==true){
             $(".slide-1").css("background-color","#1ABC9C");
-        }
-    }
+        } }
         if($("body").hasClass("viewing-page-3")){
             $(".iphone-2").removeClass("hide").addClass("animated fadeInDown delay-1");
             $(".slide-2-title").removeClass("hide").addClass("animated fadeIn delay-3");
@@ -81,9 +81,9 @@ $(document).ready(function(){
     });
     $(".toggle-opacity-all").on("click",function(){
         $(".home").toggleClass("full-color");
-        $(".slide-1").toggleClass("full-color");
+        //$(".slide-1").toggleClass("full-color");
         $(".slide-2").toggleClass("full-color");
-        $(".slide-3").toggleClass("full-color");
+        //$(".slide-3").toggleClass("full-color");
         $(".contact").toggleClass("full-color");
     });
     $(".toggle-phone").on("click",function(){
@@ -97,8 +97,8 @@ $(document).ready(function(){
             c=false;console.log(c);
         }
     }
-        $(".slide-1").toggleClass("fade-background");
+        //$(".slide-1").toggleClass("fade-background");
         $(".slide-2").toggleClass("fade-background");
-        $(".slide-3").toggleClass("fade-background");
+        //$(".slide-3").toggleClass("fade-background");
     });
 });
