@@ -193,7 +193,7 @@ p span{color:#555}
 .iphone-1,.iphone-2,.iphone-3{max-width:100%}
 .scroll-down{font-size:32px;font-size:3.2rem;display:block}
 .slide-3 h2,.slide-3 p,.slide-3 .scroll-down{color:#333}
-.slide-2 .iphone-container,.slide-3 .iphone-container{max-height:50%;position:absolute;bottom:0;left:0}
+.slide-2 .iphone-container,.slide-3 .iphone-container{max-height:50%;position:relative;bottom:0;left:0}
 
 @media (min-width: 768px){.slide-2 .iphone-container,.slide-3 .iphone-container{position:relative;bottom:auto;left:auto;max-height:1000px}}
 .contact h2{margin-top:50px;text-transform:uppercase;letter-spacing:0.1em;text-align:center;font-size:26px;font-size:2.6rem}
