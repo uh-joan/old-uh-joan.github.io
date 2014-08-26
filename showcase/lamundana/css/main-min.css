@@ -158,8 +158,8 @@ p span{color:#555}
 .slide-1.fade-background{background-color:#556b2f}
 
 .slide-1.full-color{background-color:#1abc9c}
-.slide-2{background-color:rgba(52,73,94,0.7);-webkit-transition:all,400ms;-moz-transition:all,400ms;-o-transition:all,400ms;transition:all,400ms}
-.slide-2.fade-background{background-color:#1abc9c}
+.slide-2{background-color:rgba(85,107,47,0.7);-webkit-transition:all,400ms;-moz-transition:all,400ms;-o-transition:all,400ms;transition:all,400ms}
+.slide-2.fade-background{background-color#556b2f}
 
 @media (min-width: 768px){.slide-2 .iphone-2{margin-top:150px}}
 @media (min-width: 992px){.slide-2 .iphone-2{margin-top:60px}}
