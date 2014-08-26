@@ -22,9 +22,9 @@ $(document).ready(function(){
         switch($(this).children().data("index"))
         {
             case 1:$(this).children().append("<i class='entypo-home'></i>");break;
-            case 2:$(this).children().append("<i class='entypo-dot'></i>");break;
-            case 3:$(this).children().append("<i class='entypo-dot-2'></i>");break;
-            case 4:$(this).children().append("<i class='entypo-dot-3'></i>");break;
+            //case 2:$(this).children().append("<i class='entypo-dot'></i>");break;
+            case 3:$(this).children().append("<i class='entypo-dot'></i>");break;
+            //case 4:$(this).children().append("<i class='entypo-dot-3'></i>");break;
             case 5:$(this).children().append("<i class='entypo-mail'></i>");break;}
     });
     setInterval(function(){

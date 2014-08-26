@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="29" selection-start="1671" selection-end="1671" vertical-scroll-proportion="-0.5882353" vertical-offset="645" max-vertical-offset="3165">
+            <state line="142" column="17" selection-start="5194" selection-end="5194" vertical-scroll-proportion="0.8333333" vertical-offset="1635" max-vertical-offset="3165">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-min.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main-min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main-min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="552" selection-end="552" vertical-scroll-proportion="0.35657686" vertical-offset="0" max-vertical-offset="1680">
+            <state line="25" column="66" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-13.888889" vertical-offset="0" max-vertical-offset="1680">
               <folding />
             </state>
           </provider>
@@ -61,8 +61,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/css/main-min.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main-min.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -228,13 +228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="29" selection-start="1671" selection-end="1671" vertical-scroll-proportion="-0.5882353" vertical-offset="645" max-vertical-offset="3165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main-min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="162" column="40" selection-start="12458" selection-end="12459" vertical-scroll-proportion="-70.111115" vertical-offset="537" max-vertical-offset="3945">
@@ -244,7 +237,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="552" selection-end="552" vertical-scroll-proportion="0.35657686" vertical-offset="0" max-vertical-offset="1680">
+        <state line="25" column="66" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-13.888889" vertical-offset="0" max-vertical-offset="1680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="17" selection-start="5194" selection-end="5194" vertical-scroll-proportion="0.8333333" vertical-offset="1635" max-vertical-offset="3165">
           <folding />
         </state>
       </provider>
