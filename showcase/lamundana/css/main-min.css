@@ -150,10 +150,10 @@ p span{color:#555}
 .take-a-look i{margin-right:5px}
 .home-phone{margin-top:100px}
 .home-copy{-webkit-transition:position,700ms;-moz-transition:position,700ms;-o-transition:position,700ms;transition:position,700ms}#big-video-wrap{position:fixed;height:100%;width:100%;top:0;left:0;opacity:0;overflow:hidden}#big-video-wrap.hide-video{opacity:0 !important}#big-video-vid,#big-video-image{position:absolute}
-.home{background-color:#3498db;background-color:rgba(52,152,219,0.7)}
-.home.full-color{background-color:#3498db}
+.home{background-color:#edb814;background-color:rgba(52,152,219,0.7)}
+.home.full-color{background-color:#edb814}
 .slide-1{background-color:rgba(26,188,156,0.7);-webkit-transition:all,400ms;-moz-transition:all,400ms;-o-transition:all,400ms;transition:all,400ms}
-.slide-1.fade-background{background-color:#3498db}
+.slide-1.fade-background{background-color:#edb814}
 .slide-1.full-color{background-color:#1abc9c}
 .slide-2{background-color:rgba(52,73,94,0.7);-webkit-transition:all,400ms;-moz-transition:all,400ms;-o-transition:all,400ms;transition:all,400ms}
 .slide-2.fade-background{background-color:#1abc9c}
