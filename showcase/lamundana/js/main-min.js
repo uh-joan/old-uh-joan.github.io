@@ -53,24 +53,15 @@ $(document).ready(function(){
                 $(".slide-2").css("background-color","#34495e");
             }
         }
-        if($("body").hasClass("viewing-page-4")){
-            $(".slide-3-title").removeClass("hide").addClass("animated fadeInLeft delay-1");
-            $(".slide-3-1").removeClass("hide").addClass("animated fadeInLeft delay-3");
-            $(".iphone-3").removeClass("hide").addClass("animated fadeInUp delay-3");
-            $(".slide-3-2").removeClass("hide").addClass("animated fadeInDown delay-5");
-            $(".slide-3-3").removeClass("hide").addClass("animated fadeInDown delay-6");
-            $(".slide-3-scroll").removeClass("hide").addClass("animated fadeInDown delay-12");
-            $(".icon span").css("color","#333");
-            if(c===true){$(".slide-3").css("background","#f1c40f");
-            }
-        }
+
         if($("body").hasClass("viewing-page-5")){
             $(".icon span").css("color","#fff");
         }
         if(c==true&&b==false){
             $(".slide-1").css("background","#e74c3c");
             $(".slide-2").css("background","#1ABC9C");
-            $(".slide-3").css("background","#34495e");b=true;
+
+            b=true;
         }
     },300);
     $(".settings-icon").on("click",function(){
@@ -86,7 +77,7 @@ $(document).ready(function(){
         $(".home").toggleClass("full-color");
         $(".slide-1").toggleClass("full-color");
         $(".slide-2").toggleClass("full-color");
-        $(".slide-3").toggleClass("full-color");
+
         $(".contact").toggleClass("full-color");
     });
     $(".toggle-phone").on("click",function(){
@@ -102,6 +93,6 @@ $(document).ready(function(){
     }
         $(".slide-1").toggleClass("fade-background");
         $(".slide-2").toggleClass("fade-background");
-        $(".slide-3").toggleClass("fade-background");
+        
     });
 });
