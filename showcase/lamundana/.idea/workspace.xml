@@ -35,7 +35,7 @@
       <file leaf-file-name="main-min.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main-min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="41" selection-start="10489" selection-end="10490" vertical-scroll-proportion="0.33333334" vertical-offset="1894" max-vertical-offset="3945">
+            <state line="140" column="92" selection-start="10541" selection-end="10541" vertical-scroll-proportion="0.33333334" vertical-offset="1894" max-vertical-offset="3945">
               <folding />
             </state>
           </provider>
@@ -60,9 +60,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/main-min.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main-min.js" />
+        <option value="$PROJECT_DIR$/css/main-min.css" />
       </list>
     </option>
   </component>
@@ -244,7 +244,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main-min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="41" selection-start="10489" selection-end="10490" vertical-scroll-proportion="0.33333334" vertical-offset="1894" max-vertical-offset="3945">
+        <state line="140" column="92" selection-start="10541" selection-end="10541" vertical-scroll-proportion="0.33333334" vertical-offset="1894" max-vertical-offset="3945">
           <folding />
         </state>
       </provider>
