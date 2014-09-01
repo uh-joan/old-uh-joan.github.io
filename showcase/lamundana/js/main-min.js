@@ -66,7 +66,7 @@ $(document).ready(function(){
             if(c===true){$(".slide-3").css("background","#f1c40f");
             }
         }*/
-        if($("body").hasClass("viewing-page-3")){
+        if($("body").hasClass("viewing-page-4")){
             $(".icon span").css("color","#fff");
         }
         if(c==true&&b==false){
