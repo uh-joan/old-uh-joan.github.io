@@ -28,7 +28,8 @@ $(document).ready(function(){
     });
     setInterval(function(){
         
-        if($("body").hasClass("viewing-page-2")){
+        if($("body").hasClass("viewing-page-2"))
+		{
             $(".iphone-2").removeClass("hide").addClass("animated fadeInDown delay-1");
             $(".slide-2-title").removeClass("hide").addClass("animated fadeIn delay-3");
             $(".slide-2-1").removeClass("hide").addClass("animated fadeIn delay-4");
@@ -41,19 +42,22 @@ $(document).ready(function(){
             $(".icon span").css("color","#fff");
             if(c==true){
                 $(".slide-2").css("background-color","#34495e");
-            }
-        }
-	if($("body").hasClass("viewing-page-3")){
+            		}
+        	}
+
+	if($("body").hasClass("viewing-page-3"))
+		{
 		$(".slide-1-title").removeClass("hide").addClass("animated fadeInRight delay-1");
 		$(".slide-1-1").removeClass("hide").addClass("animated fadeInRight delay-3");
 		$(".iphone-1").removeClass("hide").addClass("animated fadeInUp delay-3");
 		$(".slide-1-2").removeClass("hide").addClass("animated fadeInDown delay-5");
-		$(".slide-1-3").removeClass("hide").addClass("animated fadeInDown delay-6");
+		//$(".slide-1-3").removeClass("hide").addClass("animated fadeInDown delay-6");
 		$(".slide-1-scroll").removeClass("hide").addClass("animated fadeInDown delay-12");
-		$(".icon span").css("color","#fff");console.log(c);if(c==true){
+		$(".icon span").css("color","#fff");console.log(c);
+		if(c==true){
 		    $(".slide-1").css("background-color","#1ABC9C");
-	        }
-	 }
+	        	}
+	 	}
 
         /*if($("body").hasClass("viewing-page-4")){
             $(".slide-3-title").removeClass("hide").addClass("animated fadeInLeft delay-1");

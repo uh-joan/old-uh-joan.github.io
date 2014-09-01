@@ -156,11 +156,10 @@ p span{color:#555}
 
 .slide-1{background-color:rgba(85,107,47,0.7);-webkit-transition:all,400ms;-moz-transition:all,400ms;-o-transition:all,400ms;transition:all,400ms}
 .slide-1.fade-background{background-color:#556b2f}
-
 .slide-1.full-color{background-color:#1abc9c}
+
 .slide-2{background-color:rgba(85,107,47,0.7);-webkit-transition:all,400ms;-moz-transition:all,400ms;-o-transition:all,400ms;transition:all,400ms}
 .slide-2.fade-background{background-color#556b2f}
-
 @media (min-width: 768px){.slide-2 .iphone-2{margin-top:150px}}
 @media (min-width: 992px){.slide-2 .iphone-2{margin-top:60px}}
 @media (min-width: 992px){.slide-2 .copy{margin-top:120px !important}}
@@ -168,14 +167,13 @@ p span{color:#555}
 
 .slide-3{background-color:rgba(132,98,50,0.7);-webkit-transition:all,400ms;-moz-transition:all,400ms;-o-transition:all,400ms;transition:all,400ms}
 .slide-3.fade-background{background-color:#846232}
-
 @media (min-width: 768px){.slide-3 .iphone-3{margin-top:80px}}
 @media (min-width: 992px){.slide-3 .copy{margin-top:120px !important}}
 .slide-3.full-color{background-color:#3498db}
+
 .contact{background-color:rgba(132,98,50,0.7);-webkit-transition:all,400ms;-moz-transition:all,400ms;-o-transition:all,400ms;transition:all,400ms}
 .contact.full-color{background-color:#e67e22}
 .slide p{font-size:16px;font-size:1.6rem;line-height:18px;line-height:1.8rem;text-transform:normal;text-align:left}
-
 @media (min-width: 768px){.slide p{font-size:18px;font-size:1.8rem;line-height:22px;line-height:2.2rem}}
 .slide .copy{margin-top:15px}
 
