@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feeds/project/giftbell/mockup/2376685/6431266e792779c1fede8410259f62516a5633ef"/>
-  <title>Intro3</title>
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feeds/project/giftbell/mockup/2376811/6431266e792779c1fede8410259f62516a5633ef"/>
+  <title>Intro4</title>
   <link rel="icon" href="https://assets.mybalsamiq.com/static/favicon-8177de7c26c9a844d218345397173032.ico"/>
   <link rel="stylesheet" media="all" href="https://assets.mybalsamiq.com/static/jqueryui-myb1/jquery-ui-1.10.4.custom-37d8a8782071138076220198413bb4af.css"/>
   <link rel="stylesheet" media="all" href="https://assets.mybalsamiq.com/static/common-eda66413976b3d22f7eb383283941883.css"/>
@@ -72,8 +72,8 @@
 
   <div id="need-anon-info-dialog" title="Please enter your name first" class="hide">
     <form action="/mockup/index" method="post" name="need-anon-info-form" id="need-anon-info-form" >
-<input type="hidden" name="SYNCHRONIZER_TOKEN" value="4da5e925-5a7d-4fef-a353-af0bc515a06e" id="SYNCHRONIZER_TOKEN" />
-<input type="hidden" name="SYNCHRONIZER_URI" value="/projects/giftbell/prototype/Intro3" id="SYNCHRONIZER_URI" />
+<input type="hidden" name="SYNCHRONIZER_TOKEN" value="c869acd6-f58c-4430-a647-a4a2c8677f92" id="SYNCHRONIZER_TOKEN" />
+<input type="hidden" name="SYNCHRONIZER_URI" value="/projects/giftbell/prototype/Intro4" id="SYNCHRONIZER_URI" />
       We'll remember your contact info. for this session.
       <fieldset>
         <div class="row name">
@@ -100,16 +100,16 @@
 
 
 <div id="proto_wrapper">
-  <div id="proto_mockup" style="width:100%; text-align:center" data-refresh-url="/mockup/renderNakedMockupImage/2376685?imageMapRelativeLinks=true&amp;key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b">
+  <div id="proto_mockup" style="width:100%; text-align:center" data-refresh-url="/mockup/renderNakedMockupImage/2376811?imageMapRelativeLinks=true&amp;key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b">
     <div class="mockup-imagemap">
   
   
-    <img id="mockup_image-2376685" class="mockup"
-         src="/projects/giftbell/Intro3.jpeg?version=10&amp;etag=KXfQqmw_s8NNRVW5jsWsl1Xr2hBLEUWW&amp;key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b"
+    <img id="mockup_image-2376811" class="mockup"
+         src="/projects/giftbell/Intro4.jpeg?version=14&amp;etag=rftf8ndsQyyXq4zRW5ZjkGAAcT13Ad3J&amp;key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b.png"
          originalWidth="799"
          border="0" style="width:100%; max-width:799px;"/>
-    <a href="Intro4?key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b.html" alt="Intro4" id="15" style="left: 671px; top: 261px; width: 128px; height: 128px"></a>
-<a href="Intro2?key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b.html" alt="Intro2" id="16" style="left: 0px; top: 261px; width: 128px; height: 128px"></a>
+    <a href="gift?key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b" alt="gift" id="18" style="left: 356px; top: 427px; width: 125px; height: 49px"></a>
+<a href="Intro3?key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b.html" alt="Intro3" id="17" style="left: 0px; top: 261px; width: 128px; height: 128px"></a>
 
   
 </div>
@@ -128,14 +128,14 @@
       <li>
         
       <li><a id="prev"
-             href="/projects/giftbell/prototype/Intro2?key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b.html"
+             href="/projects/giftbell/prototype/Intro3?key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b.html"
              class=" ui-button ui-state-default ui-corner-all ui-widget ui-button-icon-only sametab"
-             role="button" aria-disabled="false" title="Intro2"><span
+             role="button" aria-disabled="false" title="Intro3"><span
             class="ui-button-icon-primary ui-icon ctrl-arlt"></span><span class="ui-button-text">Previous</span></a></li>
       <li><a id="next"
-             href="/projects/giftbell/prototype/Intro4?key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b.html"
+             href="/projects/giftbell/prototype/gift?key=f0a8c7e90db5e0c91085f21d38020ea7d818ee6b"
              class=" ui-button ui-state-default ui-corner-all ui-widget ui-button-icon-only sametab"
-             role="button" aria-disabled="false" title="Intro4"><span
+             role="button" aria-disabled="false" title="gift"><span
             class="ui-button-icon-primary ui-icon ctrl-arrt"></span><span class="ui-button-text">Next</span></a></li>
       
     </ul>
@@ -153,7 +153,7 @@
       </li>
     </ul>
 
-    <h2>Intro3</h2>
+    <h2>Intro4</h2>
   </div>
 
 
@@ -338,7 +338,7 @@
       showNotification("Sorry the link you have clicked on is no longer valid, the mockup has been renamed or deleted.");
     });
     $(document).bind('Saved.Mockup Rendered.Mockup', function(event) {
-      if (event.mockupId = 2376685) {
+      if (event.mockupId = 2376811) {
         var self = $('#proto_mockup');
         self.load(self.data('refresh-url'), function() {
           var map = $('.mockup-imagemap');
