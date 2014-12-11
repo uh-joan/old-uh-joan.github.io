@@ -319,7 +319,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #000000;
+    color: #bcbcbc;
 }
 
 footer h3 {
@@ -333,7 +333,6 @@ footer .footer-above {
 
 footer .footer-col {
     margin-bottom: 50px;
-    color :000000;
 }
 
 footer .footer-below {
