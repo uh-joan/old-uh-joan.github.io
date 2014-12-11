@@ -246,7 +246,7 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #bcbcbc;
     font-size: 20px;
     color: #bcbcbc;
     background: 0 0;
@@ -258,7 +258,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #bcbcbc;
+    color: #717171;
     background: #fff;
 }
 
