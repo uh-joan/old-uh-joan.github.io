@@ -276,7 +276,7 @@ body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.42857143;
-  color: #2c3e50;
+  color: #bcbcbc;
   background-color: #ffffff;
 }
 input,
@@ -288,12 +288,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #18bc9c;
+  color: #bcbcbc;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #18bc9c;
+  color: #bcbcbc;
   text-decoration: underline;
 }
 a:focus {
@@ -502,10 +502,10 @@ cite {
   color: #b4bcc2;
 }
 .text-primary {
-  color: #2c3e50;
+  color: #bcbcbc;
 }
 a.text-primary:hover {
-  color: #1a242f;
+  color: #717171;
 }
 .text-success {
   color: #ffffff;
@@ -533,22 +533,22 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #2c3e50;
+  background-color: #bcbcbc;
 }
 a.bg-primary:hover {
   background-color: #1a242f;
 }
 .bg-success {
-  background-color: #18bc9c;
+  background-color: #bcbcbc;
 }
 a.bg-success:hover {
-  background-color: #128f76;
+  background-color: #969696;
 }
 .bg-info {
-  background-color: #3498db;
+  background-color: #bcbcbc;
 }
 a.bg-info:hover {
-  background-color: #217dbb;
+  background-color: #969696;
 }
 .bg-warning {
   background-color: #f39c12;
